@@ -2,6 +2,9 @@
 en este ejercicio hacemos un tornillo de lodos sacando las componentes vectoriales tridimensionales del triedro de frenet de un tornillo de lodos minero. Primero sacamos la interseccion entre dos superficies con ecuaciones paramétricas y luego calculamos el triedro de frenet en un punto de la interseccion para finalmente pintar todo. 
 
 Recomiendo que ejecuten primero tornillo arquímedes lodos mineros dando a run y luego que copien el primer párafo del texto del documento word tornillo arquimedes lodos: mineros que es esta parte:
+
+[![tornillo-lodos-mineros.png](https://i.postimg.cc/C5FS61jt/tornillo-lodos-mineros.png)](https://postimg.cc/2bXs1C9F)
+
 [x,y]=meshgrid(0:0.1:4.2)
 z=5.7.*atan(y./x) ; mesh(x,y,z) %Helicoide recto
 hold on
